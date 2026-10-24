@@ -1,0 +1,58 @@
+name: pegaefazfree
+description: Aplicativo PegaeFazFree
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 🔥 BACKEND
+  supabase_flutter: ^2.5.6
+
+  # 🔔 PUSH NOTIFICATIONS / FIREBASE
+  firebase_core: ^4.7.0
+  firebase_messaging: ^16.2.0
+
+  # 📷 IMAGEM
+  image_picker: ^1.1.2
+  image_cropper: ^12.0.1
+
+  # 🆔 ID
+  uuid: ^4.5.1
+
+  # 📍 LOCALIZAÇÃO
+  geolocator: ^12.0.0
+  url_launcher: ^6.3.0
+  http: ^1.2.2
+
+  # 🔐 SEGURANÇA LOCAL / BIOMETRIA
+  local_auth: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # 📱 ICONE DO APP
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/image.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/image.png"

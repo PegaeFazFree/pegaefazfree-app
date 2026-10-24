@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160934022660",
+    "project_id": "pegaefazfree-e9fca",
+    "storage_bucket": "pegaefazfree-e9fca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160934022660:android:d7163556eb7f02a52e2f51",
+        "android_client_info": {
+          "package_name": "br.com.pegaefazfree"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAPZf6J-6Y3iGqBQ1N7uv2PHlKH5bEEHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
